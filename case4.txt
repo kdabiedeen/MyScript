@@ -1,0 +1,14 @@
+{
+  data = [ 300, 125, 12, 65, 9943, 9000 ];
+  min = data[0];
+  minIndex = 0;
+  i = 1;
+  while (i < 6){
+    if (data[i] < min){
+       min = data[i];
+       minIndex = i;
+    }
+   i = i + 1;
+  }
+  print(minIndex);
+}

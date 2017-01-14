@@ -1,0 +1,6 @@
+functional(n){
+    print("WOAH BOAY");
+}
+{
+    functional(5);
+}

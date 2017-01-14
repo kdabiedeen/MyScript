@@ -1,0 +1,13 @@
+{
+  number1 = 25;
+  number2 = 10;
+  while(number1 <> number2) {
+    if (number1 > number2) {
+      number1 = number1 - number2;
+    } else {
+      number2 = number2 - number1;
+    }
+  }
+  print("The greatest common divider is: ");
+  print(number1);
+}
